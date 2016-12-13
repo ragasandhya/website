@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+
+		<title>Google</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   		 <!-- Bootstrap -->
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		
+		<style type="text/css">
+
+		/*div {
+			    padding-left: 1100px;
+            }
+*/
+		/*img {
+			margin-top: 54px;
+    		margin-bottom: 100px;
+    		margin-right: 150px;
+    		margin-left: 416px;
+		}*/
+		
+			#search-input {
+				
+			    /*width: 500px;
+			    box-sizing: border-box;
+			    border: 2px solid #ccc;
+			    border-radius: 4px;
+			    font-size: 16px;
+			    background-color: white;
+			    background-image: url('searchicon.png');
+			    background-position: 10px 10px; 
+			    background-repeat: no-repeat;
+			    padding: 12px 20px 12px 40px;
+			    -webkit-transition: width 0.4s ease-in-out;
+			    transition: width 0.4s ease-in-out;*/
+			}
+
+			#search-box{
+				width: 500px;
+  				margin: 0 auto;
+  				margin-top: 150px;
+
+			}
+
+			#navigation-bar	{
+				position:relative;
+				left:80px;
+				top:2px
+			}
+
+			#logo{
+				width: 250px;
+				height: 100px;
+				margin-left: 120px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+	
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    	<div class="container">
+	
+			<div id="navigation-bar" class="row">
+				<div class="span9">
+				</div>
+				<div class="span3">
+					<a href="https://gmail.com">Gmail</a>
+					<a href="https://www.google.co.in/imghp?hl=en&tab=wi&ei=HOVCWKOjEIz5vgSz27OoBA&ved=0EKouCBQoAQ">Images</a>	
+				</div>
+				
+			</div>
+
+			<div id="search-box" class="row">
+				<img id="logo" src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"alt="Goolge Image">
+				<form>
+	  				<input id="search-input" type="text" name="search" placeholder="Search.." class="input-xxlarge">
+	  				<div class="row">
+	  					<div class="span1"></div>
+	  					<div class="span2">
+	  						<button class="btn" type="button">Google Search</button>
+	  					</div>
+	  					<div class="span2">
+	  							<button class="btn" type="button">I'm feeling lucky</button>
+	  					</div>
+	  					
+	  				
+	  				</div>
+				</form>
+			</div>
+
+		</div>
+
+	</body>
+</html>
