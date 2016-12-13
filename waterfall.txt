@@ -1,0 +1,11 @@
+The process of waterfall method:
+	1) Requirement collection
+	2) Feasibility study
+	3) Design
+	4) Coding
+	5) Testing
+	6) Installation
+	7) Maintanence
+
+
+		In waterfall mrethod development of a software is carried in a sequential manner.
