@@ -1,0 +1,9 @@
+Spiral model:
+	-> In Spiral model developement of the software is carried out in part wise or iterative manner
+	-> In spiral model requirement changes can be handled in 2 ways
+		1) Minor change
+		   i)  In the same iteration we carry out changes and add new features
+		   ii) Minor change desnot impacts the design
+		2) Major change
+			i)  Seperate iteration is carried out in case of major change and the previous iteration is destroyed
+			ii) Major change impacts the design
